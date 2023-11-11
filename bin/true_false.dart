@@ -1,14 +1,22 @@
-main() {  
-   bool check;   
-   int val1=12; 
-   int val2=9; 
-    
-  
-   check=(val1>val2); 
-   print(check);    
-}
+void main () {
+  bool isRaining = true;
 
-void main() {
+  if (isRaining) {
+    print('Bring an umbrella!');
+  } else {
+    print('Stay at home!');
+  }
+
+
+  bool a = true;
+  bool b = false;
+  if (a) {
+    print('a');
+  } else {
+    print('b');
+  }
+
+  void main() {
   bool isRaining = true;
 
   if (isRaining) {
@@ -16,4 +24,5 @@ void main() {
   } else {
     print("Enjoy the weather!");
   }
+}
 }
